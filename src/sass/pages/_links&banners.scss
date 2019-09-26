@@ -1,0 +1,173 @@
+@media(min-width: 769px) {
+  .link-container{
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-box{
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 700px;
+    display: flex;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+  }
+
+  .link-box:hover{
+    background: $color-whitesmoke;
+  }
+
+  .link-box p{
+    margin: 0;
+    padding: 0 0 0 20px;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: $font-bold;
+    color: $color-grey-btn;
+  }
+
+  .link-box .link{
+    margin: 0;
+    padding: 0;
+    min-width: 280px;
+    text-decoration: none;
+  }
+
+  .link-box .link:hover{
+    font-weight: $font-bold;
+  }
+
+  .link-icons{
+    padding-left: 20px;
+
+    display: none;
+  }
+
+  .link-icons i{
+    margin: 0;
+    padding-left: 16px;
+  }
+
+  .link-box:hover .link-icons{
+    display: block;
+  }
+
+  .link-icons i:hover{
+    color: $color-orange-btn-active;
+  }
+}
+
+@media(min-width: 426px) and (max-width: 768px){
+  #links, #banners{
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-box{
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 700px;
+    display: flex;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+  }
+
+  .link-box:hover{
+    background: $color-whitesmoke;
+  }
+
+  .link-box p{
+    margin: 0;
+    padding: 0 0 0 20px;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: $font-bold;
+    color: $color-grey-btn;
+  }
+
+  .link-box .link{
+    margin: 0;
+    padding: 0;
+    min-width: 280px;
+    text-decoration: none;
+  }
+
+  .link-box .link:hover{
+    font-weight: $font-bold;
+  }
+
+  .link-icons{
+    padding-left: 20px;
+    display: none;
+  }
+
+  .link-icons i{
+    margin: 0;
+    padding-left: 16px;
+  }
+
+  .link-box:hover .link-icons{
+    display: block;
+  }
+
+  .link-icons i:hover{
+    color: $color-orange-btn-active;
+  }
+}
+
+@media(max-width: 425px) {
+  #links, #banners{
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-container{
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-box{
+    margin: 0;
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: $font-bold;
+    color: $color-grey-btn;
+    text-align: center;
+  }
+
+  .link-box .link{
+    margin: auto;
+    padding: 20px 0;
+    text-decoration: none;
+  }
+
+  .link-icons{
+    margin: 0 auto;
+    padding: 10px 0;
+    display: none;
+  }
+
+  .link-icons i{
+    margin: 0;
+    padding: 10px;
+  }
+
+  .link-box:hover{
+    background: $color-whitesmoke;
+  }
+
+  .link-box:hover .link-icons{
+    display: block;
+  }
+
+  .link-icons i:hover{
+    color: $color-orange-btn-active;
+  }
+}
