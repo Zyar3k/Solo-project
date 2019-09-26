@@ -1,0 +1,251 @@
+/* section-title */
+.section-title{
+  margin: 0 auto;
+  padding: 16px 0 16px 18px;
+  // font-style: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid $color-grey-btn-disabled;
+}
+
+.section-title h2{
+  margin: 0 auto;
+  padding: 0 auto;
+  font-weight: $font-light;
+  font-size: 16px;
+  font-family: $font-text;
+  color: $color-grey-btn;
+}
+
+/* section-subtitle */
+.section-subtitle{
+  margin: 0;
+  padding: 16px 0 16px 18px;
+  font-style: normal;
+  text-transform: capitalize;
+  color: $color-grey-btn;
+  font-size: 14px;
+}
+
+@media(max-width: 425px){
+  .section-title{
+    text-align: center;
+  }
+
+  .section-subtitle{
+    text-align: center;
+  }
+}
+
+
+/* calendar-section */
+@media(min-width:321px){
+  .date-section{
+    margin: 0;
+    padding: 36px 0;
+    text-align: center;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+    display: flex;
+    justify-content: center;
+  }
+
+  .date-section input{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ccc;
+  }
+
+  .date-section input[type=text]{
+    padding-left: 10px;
+  }
+
+  .btn-date{
+    width: 40px;
+  }
+
+  .date-section .inputWithIcon{
+    position: relative;
+    padding-right: 10px;
+    border-radius: 8px;
+  }
+
+  .date-section .inputWithIcon input{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: none;
+  }
+
+  .date-section .inputWithIcon input[type=text]{
+    border-left: solid 1px $color-grey-btn-disabled;
+  }
+
+  .date-section .inputWithoutIcon input{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: none;
+  }
+
+  .date-section .inputWithIcon i{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    padding: 9px 8px;
+    color: $color-black;
+  }
+}
+
+@media(max-width: 320px){
+  .date-section{
+    margin: 0;
+    padding: 36px 0;
+    text-align: center;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+    flex-direction: column;
+  }
+
+  .date-section input{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ccc;
+  }
+
+  .date-section input[type=text]{
+    padding-left: 20px;
+  }
+
+  .date-section .icon-calendar{
+    position: absolute;
+    margin-left: 120px;
+    padding: 10px;
+  }
+
+  .btn-date{
+    margin-top: 10px;
+  }
+
+  .date-section .inputWithIcon{
+    position: relative;
+    padding-right: 10px;
+  }
+
+  .date-section .inputWithIcon input{
+    margin-left: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: none;
+  }
+
+  .date-section .inputWithIcon input[type=text]{
+    border-top: solid 1px $color-grey-btn-disabled;
+  }
+
+  .date-section .inputWithoutIcon input{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: none;
+  }
+
+  .date-section .inputWithIcon i{
+    position: absolute;
+    right: 90px;
+    top: 2px;
+    color: $color-black;
+  }
+}
+
+/* buttons */
+.btn-section{
+  padding: 22px 0;
+  text-align: center;
+}
+
+.btn a{
+  text-decoration: none;
+  color: $color-whitesmoke;
+  font-size: 18px;
+}
+
+.btn{
+  padding: 10px;
+  top: 10px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  max-height: 40px;
+  background-color: $color-orange-btn;
+}
+
+.btn:hover{
+  background-color: $color-orange-btn-active;
+}
+
+@media(max-width: 320px){
+  .btn-section{
+    padding: 12px 0;
+    text-align: center;
+  }
+}
+
+// @media(min-width: 321) and (max-width: 768px){
+
+// }
+
+// @media(min-width: 769px){
+
+// }
+
+// @media(max-width: 320px){
+//   .btn-section{
+//     margin: 0;
+//     // padding: 22px 0;
+//     text-align: center;
+//   }
+
+//   .btn{
+//     margin: 20px auto;
+//     padding: 10px;
+//     display: inline-block;
+//     cursor: pointer;
+//     border-radius: 4px;
+//     height: 40px;
+//   }
+
+//   .btn-section a{
+// //     margin: 0;
+// //     padding: 0;
+//     text-decoration: none;
+// //     color: $color-whitesmoke;
+// //     font-size: 18px;
+//   }
+
+// //   .btn-large{
+// //     width: 128px;
+// //     font-size: 18px;
+// //   }
+// }
+
+// @media(min-width: 321px){
+//   .btn{
+// //     margin: 0;
+//     padding: 10px;
+// //     display: inline-block;
+//     cursor: pointer;
+//     border-radius: 4px;
+//     // height: 40px;
+//   }
+
+//   .btn-section a{
+// //     margin: 0;
+// //     padding: 0;
+//     text-decoration: none;
+//     // color: $color-whitesmoke;
+// //     font-size: 18px;
+//   }
+
+//   .btn-large{
+//     width: 128px;
+// //     font-size: 18px;
+//         // color: $color-whitesmoke;
+//   }
+// }

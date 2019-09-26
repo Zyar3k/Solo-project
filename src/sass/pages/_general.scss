@@ -1,0 +1,206 @@
+@media(min-width: 769px) {
+  .counters-section{
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+  }
+
+  .counters-section .line-wrapper{
+    margin: 0 30px;
+    padding: 0;
+    width: 300px;
+    justify-content: space-between;
+
+  }
+
+  .counters-section .line-box{
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+  }
+
+  .counters-section .line-text{
+    margin: 0;
+    padding: 10px 0;
+    font-weight: $font-bold;
+    color: $color-grey-btn;
+  }
+
+  .counters-section .line-number{
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .counters-section a{
+    text-decoration: none;
+  }
+
+  #general .section-subtitle{
+    margin-left: 180px;
+    padding: 0;
+  }
+
+  .chart-section{
+    margin: 0;
+    padding: 0;
+
+    // justify-content: center;
+    // text-align: center;
+  }
+
+  #myChart{
+    padding: 30px;
+    size: auto auto;
+  }
+
+  // .checkbox-section{
+  //   margin: 0;
+  //   padding: 30px;
+  //   display: flex;
+  //   justify-content: center;
+  //   font-style: normal;
+  // }
+
+  // .container {
+  //   display: block;
+  //   position: relative;
+
+  //   margin: 0 60px;
+  //   cursor: pointer;
+  // }
+
+  // .container p{
+  //   padding-left: 10px;
+  // }
+
+  // .container input {
+  //   margin: 0;
+  //   padding: 0;
+  //   position: absolute;
+  //   opacity: 0;
+  //   cursor: pointer;
+  //   height: 0;
+  //   width: 0;
+  // }
+
+  // .checkmark {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 40px;
+  //   width: 120px;
+  //   border-radius: 4px;
+  //   background-color: $color-white;
+  // }
+
+  // .checkmark span{
+  //   margin-top: 10px;
+  //   margin-left: 10px;
+  // }
+
+  // .container:hover input ~ .checkmark {
+  //   background-color: $color-grey-btn-disabled;
+  // }
+
+  // .container input:checked ~ .checkmark {
+  //   background-color: $color-grey-btn-active;
+  // }
+
+  // .dot {
+  //   height: 14px;
+  //   width: 14px;
+  //   background-color: #bbb;
+  //   border-radius: 50%;
+  //   display: inline-block;
+  // }
+
+  // .dot-bl{
+  //   background-color: $color-blue-tabs;
+  // }
+
+  // .dot-org{
+  //   background-color: $color-orange-btn;
+  // }
+
+  // .dot-gre{
+  //   background-color: $color-green-pos-not;
+  // }
+}
+
+@media(max-width: 768px) {
+  #general{
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    z-index: 997;
+  }
+
+  .open-slide{
+    z-index: 998;
+  }
+
+  .counters-section{
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+  }
+
+  .counters-section a{
+    text-decoration: none;
+  }
+
+  .counters-section .line-wrapper{
+    margin: 0 30px;
+    padding: 0;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .counters-section .line-box{
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-grey-btn-disabled;
+  }
+
+  .counters-section .line-text,
+  .counters-section .line-number{
+    margin: 0;
+    padding: 10px 0;
+    font-weight: $font-bold;
+    color: $color-grey-btn;
+  }
+
+  .chart-section{
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #myChart{
+    margin: 0 auto;
+    // padding: 30px;
+    size: auto auto;
+  }
+}
+
+@media(max-width: 425px) {
+  .chart-section{
+    overflow-x: auto;
+  }
+
+  #myChart{
+    overflow-x: auto;
+  }
+}
