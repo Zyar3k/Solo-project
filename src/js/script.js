@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* show fnc */
 function toggleMenu(visible) {
   document.querySelector('.mobile-sidebar').classList.toggle('show', visible);

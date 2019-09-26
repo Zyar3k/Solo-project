@@ -1,0 +1,62 @@
+#detailStat {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+#detailStat td, #detailStat th {
+  border-bottom: 1px solid #ddd;
+}
+
+#detailStat .ds-date td, #detailStat th{
+  padding: 16px;
+}
+
+#detailStat .ds-date:hover {
+  background-color: $color-grey-btn-disabled;
+  cursor: pointer;
+}
+
+#detailStat th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: $color-grey-btn;;
+}
+
+.pg-slid{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pg-slid a{
+  margin: 0;
+  padding: 0 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.pg-slid a:hover{
+  background-color: $color-grey-btn-disabled;
+}
+
+.pg-slid .icon-arrow-left,
+.pg-slid .icon-arrow-right{
+  margin: 0;
+  padding: 16px;
+}
+
+@media(max-width: 1024px){
+  .table-wrapper{
+    overflow-x: auto;
+  }
+}
+
+@media(max-width: 375px){
+  .pg-slid a{
+    padding: 0 8px;
+  }
+}
