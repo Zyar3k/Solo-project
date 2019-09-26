@@ -1,0 +1,279 @@
+<!DOCTYPE   html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Just do it</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="main">
+      <!-- mobile nav -->
+      <header class="mobile">
+        <h2>Just do it</h2>
+      </header>
+      <div class="open-slide">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="mobile-sidebar">
+      <ul class="mob-sid">
+        <li>
+          <a href="#general" class="item-content">
+            <i class="icon-general"></i>
+            General
+          </a>
+        </li>
+        <li>
+          <a href="#details" class="item-content">
+            <i class="icon-details"></i>
+            Details
+          </a>
+        </li>
+        <li>
+          <a href="#links" class="item-content">
+            <i class="icon-links"></i>
+            Links
+          </a>
+        </li>
+        <li>
+          <a href="#banners" class="item-content">
+            <i class="icon-banners"></i>
+            Banners
+          </a>
+        </li>
+        <li>
+          <a href="#personalData" class="item-content">
+            <i class="icon-personaldata"></i>
+            Personal data
+          </a>
+        </li>
+        <li>
+          <a href="#payout" class="item-content">
+            <i class="icon-payout"></i>
+            Payout
+          </a>
+        </li>
+        <li>
+          <a href="#postback" class="item-content">
+            <i class="icon-postback"></i>
+            Postback
+          </a>
+        </li>
+        <li id="amount">
+            <a><i class="icon-wallet"></i></a>
+            <select name="a"  class="amount-value">
+              <option value="item-1">$1,500.00</option>
+              <option value="item-2">Item 2</option>
+              <option value="item-3">Item 3</option>
+              <option value="item-4">Item 4</option>
+              <option value="item-5">Item 5</option>
+            </select>
+
+        </li>
+        <li>
+          <a href="#" class="item-content">
+            <i class="icon-notification"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="navbar-content">
+            <i class="icon-profile"></i>
+              Leonardo Di Caprio
+            </a>
+        </li>
+        <li>
+          <a href="#quit" class="item-content">
+            <i class="icon-quit "></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+      <!-- mobile nav -->
+
+      <!-- desktop nav -->
+      <nav class="desktop">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a href="">
+              <i class="icon-wallet"></i></a>
+              <select name="a"  class="amount-value">
+                <option value="item-1">$1,500.00</option>
+                <option value="item-2">Item 2</option>
+                <option value="item-3">Item 3</option>
+                <option value="item-4">Item 4</option>
+                <option value="item-5">Item 5</option>
+              </select>
+          </li>
+          <li class="nav-li">
+            <a href="#">
+                <i class="icon-notification"></i>
+            </a>
+          </li>
+          <li class="nav-li">
+              <a href="#modalLogin"><i class="icon-login"></i></a>
+            <a href="#">
+              Leonardo Di Caprio
+            </a>
+          </li>
+          <li class="nav-li">
+            <a href="#quitModal" >
+              <i class="icon-quit"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="sidebar desktop">
+        <div class="logo desktop">
+          <img src="images/logo.png" alt="logo" width="86">
+        </div>
+        <ul class="sidebar-ul desktop">
+          <li class="sidebar-li desktop">
+            <a href="#general">
+              <i class="icon-general"></i>
+              General
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#details">
+              <i class="icon-details"></i>
+              Details
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#links">
+              <i class="icon-links"></i>
+              Links
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#banners">
+              <i class="icon-banners"></i>
+              Banners
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#personalData">
+              <i class="icon-banners"></i>
+              Personal data
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#payout">
+              <i class="icon-payout"></i>
+              Payout
+            </a>
+          </li>
+          <li class="sidebar-li desktop">
+            <a href="#postback">
+              <i class="icon-postback"></i>
+              Postback
+            </a>
+          </li>
+          <div class="mess">
+            <img src="images/mess.png" alt="mess" width="188">
+          </div>
+        </ul>
+      </section>
+      <!-- desktop -->
+
+
+
+
+
+      <!-- sections -->
+      <section id="general">
+        <div class="section-title">
+          <h2>general statistic</h2>
+        </div>
+
+        <div class="date-section">
+          <div class="inputWithoutIcon">
+              <input type="text" placeholder="10.12.2019">
+          </div>
+          <div class="inputWithIcon">
+            <input type="text" placeholder="10.12.2019">
+            <i class="icon-calendar" aria-hidden="true"></i>
+          </div>
+          <div class="btn btn-date">
+            <a href="#"><i class=" icon-refresh"></i> </a>
+          </div>
+        </div>
+
+        <div class="counters-section">
+          <div class="line-wrapper">
+            <div class="line-box">
+              <div class="line-text">Visit signups</div>
+              <div class="line-number"><a href="#">124</a></div>
+            </div>
+            <div class="line-box">
+              <div class="line-text">FTD</div>
+              <div class="line-number"><a href="#">445</a></div>
+            </div>
+          </div>
+          <div class="line-wrapper">
+            <div class="line-box">
+              <div class="line-text">Net deposit</div>
+              <div class="line-number"><a href="#">564</a></div>
+            </div>
+            <div class="line-box">
+              <div class="line-text">Turn over</div>
+              <div class="line-number"><a href="#">432</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-subtitle">
+          <h3>Earnings chart</h3>
+        </div>
+
+        <!-- <div class="checkbox-section">
+          <label class="container">
+              <p>Signups</p>
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"><span class="dot dot-bl"></span>Signups</span>
+            </label>
+            <label class="container">
+                <p>FTD</p>
+              <input type="checkbox">
+              <span class="checkmark"><span class="dot dot-org"></span>FTD</span>
+            </label>
+            <label class="container">
+              <p>Earned</p>
+              <input type="checkbox">
+              <span class="checkmark"><span class="dot dot-gre"></span>Earned</span>
+            </label>
+        </div> -->
+
+        <div class="chart-section">
+
+          <canvas id="myChart"></canvas>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://unpkg.com/@jaxon_song/image-scaler/dist/bundle.min.js"></script>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
