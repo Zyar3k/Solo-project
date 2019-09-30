@@ -216,6 +216,7 @@ body{
       visibility: visible;
     }
 
+
     .mob-sid{
       margin: 0;
 
@@ -224,9 +225,9 @@ body{
 
   #amount{
     margin: 0;
-    padding: 0;
+    padding-left: 60px;
     display: flex;
-    justify-content: center;
+
   }
 
   .amount-value{
@@ -234,7 +235,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     background: transparent;
-    // background-color: black;
+
     border: none;
   }
 
@@ -252,13 +253,14 @@ body{
   }
 
   .mobile-sidebar ul{
-    text-align: center;
+    // text-align: center;
     padding: 0;
+
   }
 
   .mob-sid li{
     margin: 0;
-    padding: 0;
+    padding-left: 60px;
     list-style: none;
     border-bottom: 2px solid $color-project-black;
     visibility: hidden;

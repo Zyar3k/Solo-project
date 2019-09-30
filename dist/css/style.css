@@ -531,11 +531,9 @@ body {
   }
   #amount {
     margin: 0;
-    padding: 0;
+    padding-left: 60px;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
   }
   .amount-value {
     color: whitesmoke;
@@ -556,12 +554,11 @@ body {
     background-color: black;
   }
   .mobile-sidebar ul {
-    text-align: center;
     padding: 0;
   }
   .mob-sid li {
     margin: 0;
-    padding: 0;
+    padding-left: 60px;
     list-style: none;
     border-bottom: 2px solid #333333;
     visibility: hidden;
