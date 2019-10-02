@@ -11,6 +11,14 @@ document.querySelector('.open-slide').addEventListener('click', function(e) {
   e.preventDefault();
   toggleMenu();
 });
+const items = document.querySelectorAll('.item-content')
+
+for(let item of items){
+  item.addEventListener('click', function(e) {
+    // e.preventDefault();
+    toggleMenu();
+});
+}
 
 /* email validate */
 document.querySelector('form').addEventListener('submit', function(event) {
